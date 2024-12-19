@@ -8,7 +8,7 @@ This repository provides tools, workflows, and guidelines for Quality Control (Q
 
 ## Acknowledgement
 
-This work builds on the QC/QA frameworks provided by [BDC_qc](https://github.com/BerringDC/BDC_qc), developed by the Ocean Data Network (ODN) and [moana-qc](https://github.com/metocean/moana-qc/blob/master/docs/moana_sensor_qc.md), developed by the moana project. We extend their work and adapt it for FVON's specific needs.
+This work builds on the QC/QA frameworks provided by [BDC_qc](https://github.com/BerringDC/BDC_qc), developed by the Ocean Data Network (ODN) and [moana-qc](https://github.com/metocean/moana-qc/blob/master/docs/moana_sensor_qc.md) (https://zenodo.org/records/8013299),developed by the moana project, and the [Adri-FOOS QC](https://doi.org/10.5194/essd-15-3513-2023) and [SeaDataNet flagging convention](http://seadatanet.maris2.nl/v_bodc_vocab_v2/browse.asp?order=conceptid&formname=search&screen=0&lib=l20). We extend their work and adapt it for FVON's broader needs.
 
 ---
 
@@ -31,10 +31,12 @@ Collection of manuals and scripts to assist in automated quality assurance and q
 * [Flags](#flags)
 * [General Quality Control Tests](#gqct)
 * [Real-time Quality control](#real-time-quality-control)
-	* [Fisheries quality control tests](#fisheries-quality-control-tests)
+	* [Fisheries specific quality control tests](#fisheries-quality-control-tests)
 		* [Platform identification (under development)](#platform-identification-under-development)
 		* [Vessel ID control test](#vessel-id-control-test)
 		* [Gear type control test](#gear-type-control-test)
+    		* [Mud test](#mud-test)
+      		* [Profiling speed test (under development)](#profiling_speed_test_under_development)
 	* [Quality control tests CTD](#quality-control-tests-ctd)
 		* [Impossible date test](#impossible-date-test)
 		* [Impossible location test](#impossible-location-test)
@@ -45,7 +47,6 @@ Collection of manuals and scripts to assist in automated quality assurance and q
 		* [Digit rollover test](#digit-rollover-test)
 		* [Stuck value / flat line test](#stuck-value-flat-line-test)
 		* [Rate of change test](#rate-of-change-test)
-		* [Mud test](#mud-test)
 		* [Timing / gap test](#timing-gap-test)
 		* [Climatology test](#climatology-test)
 * [References](#references)
